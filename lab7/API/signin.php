@@ -1,6 +1,6 @@
 <?php
 session_start();
-require '../DPU1.php';
+require '../db.php';
 
 if (isset($_POST['signin'])) {
     $username = $_POST ['username'];
